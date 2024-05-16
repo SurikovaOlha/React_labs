@@ -1,0 +1,28 @@
+body{
+  padding: 50px;
+}
+
+.table{
+  border-collapse: collapse;
+}
+
+.table td{
+  padding: 3px 8px;
+  border: 1px solid #ccc;
+}
+
+.mt-50{
+  margin-top: 50px;
+}
+
+button{
+  width: 100px;
+  border: none;
+  height: 42px;
+  cursor: pointer;
+  background: #3838de;
+  color: yellow;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 18px;
+}
