@@ -7,7 +7,7 @@ function Three(props) {
 
   return (
       <div className="mt-50">
-        <h2>3</h2>
+        <h2>Пункт 3</h2>
 
         <div>
           <div>{message}</div>

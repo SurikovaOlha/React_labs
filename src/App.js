@@ -1,7 +1,10 @@
 import './App.css';
-import Table from "./components/Table";
-import NumberParameters from "./components/NumberParameters";
-import Three from "./components/Three";
+import Table from "./components/lab1/Table";
+import NumberParameters from "./components/lab1/NumberParameters";
+import Three from "./components/lab1/Three";
+import List from "./components/lab2/List";
+import Sudoku from "./components/lab2/Sudoku";
+import FormComponent from "./components/lab2/FormComponent";
 
 const data = [
   {
@@ -29,6 +32,9 @@ function App() {
       <Table data={data} />
       <NumberParameters number={number} />
       <Three number={threeNumber} />
+      <List/>
+      <Sudoku/>
+      <FormComponent/>
     </div>
   );
 }
